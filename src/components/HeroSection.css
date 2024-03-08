@@ -1,15 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
 
-video {
-    object-fit: cover;
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    z-index: -1;
-  }
   
   .hero-container {
-    /* background: url('/images/img-home.jpg') center center/cover no-repeat; */
+    background: url('https://images.unsplash.com/photo-1464618663641-bbdd760ae84a?q=80&w=3870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D') center center/cover no-repeat; 
     height: 100vh;
     width: 100%;
     display: flex;
@@ -47,6 +40,7 @@ video {
   }
 
   .hero-header {
+    padding-top: 3rem;
     font-family: 'Dancing Script', cursive;
     font-weight: 700;
   }

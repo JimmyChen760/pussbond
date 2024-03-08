@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300..700&display=swap');
+
+.slide-cap{
+    font-family: 'Signika Negative';
+    line-height: normal;
+    width: 80%;
+    height: 60%;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.25rem;
+    display: flex;
+  }
