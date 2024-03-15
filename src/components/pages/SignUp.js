@@ -3,6 +3,7 @@ import { Gallery } from "react-grid-gallery";
 import Lightbox from "yet-another-react-lightbox";
 import "yet-another-react-lightbox/styles.css";
 import { images, CustomImage } from "./image";
+import "./SignUp.css"
 
 const slides = images.map(({ original, width, height }) => ({
   src: original,
@@ -17,6 +18,9 @@ export default function App() {
 
   return (
     <div>
+      <audio controls autoPlay>
+        <source src='videos/Tom And Jerry Main Theme (From _Tom And Jerry_).mp3' type='audio/mpeg'></source>
+      </audio>
       <Gallery
         images={images}
         onClick={handleClick}
