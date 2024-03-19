@@ -15,7 +15,7 @@ function HeroSection() {
             className='btns'
             buttonStyle='btn--outline'
             buttonSize='btn--large'
-            hypLink={"https://www.mississaugahumanesociety.ca/ouranimals"}
+            hypLink={"https://www.mississaugahumanesociety.ca/adopt"}
           >
             ADOPT
           </Button>
